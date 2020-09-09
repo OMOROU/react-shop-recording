@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function CartItem({ item, value }) {
     const { id, title, img, prix, total, count } = item;
     const { increment, decrement, removeItem } = value
